@@ -43,6 +43,11 @@ public class ProductController {
     public void testbranch() {
     	System.out.println("test");
     }
+    
+    @GetMapping("/testbranch2")
+    public void testbranch2() {
+    	System.out.println("test");
+    }
 
     @PostMapping()
     public ResponseEntity<ProductResponseDto> createProduct(@RequestBody ProductDto productDto){
