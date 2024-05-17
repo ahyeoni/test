@@ -32,6 +32,12 @@ public class ProductController {
 
         return ResponseEntity.status(HttpStatus.OK).body(productResponseDto);
     }
+    
+    @GetMapping("/test")
+    public void test() {
+    	System.out.println("test");
+    }
+    
 
     @PostMapping()
     public ResponseEntity<ProductResponseDto> createProduct(@RequestBody ProductDto productDto){
