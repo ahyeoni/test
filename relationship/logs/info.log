@@ -1,0 +1,664 @@
+[2024-05-16 13:42:17.219] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 832 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 13:42:17.221] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 13:42:17.808] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 13:42:17.868] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+[2024-05-16 13:42:18.247] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 13:42:18.256] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 13:42:18.256] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 13:42:18.256] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 13:42:18.332] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 13:42:18.333] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1067 ms
+[2024-05-16 13:42:18.469] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 13:42:18.507] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 13:42:18.604] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 13:42:18.680] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 13:42:18.734] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 13:42:18.757] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 13:42:19.235] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 13:42:19.243] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 13:42:19.269] [WARN ] [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController' defined in file [C:\springboot\relationship\target\classes\com\springboot\relationship\controller\ProductController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springboot.relationship.service.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2024-05-16 13:42:19.270] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 13:42:19.272] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 13:42:19.277] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 13:42:19.279] [INFO ] [main] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2024-05-16 13:42:19.289] [INFO ] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-05-16 13:42:19.303] [ERROR] [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springboot.relationship.controller.ProductController required a bean of type 'com.springboot.relationship.service.ProductService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.springboot.relationship.service.ProductService' in your configuration.
+
+[2024-05-16 13:43:56.231] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 2372 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 13:43:56.233] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 13:43:56.718] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 13:43:56.770] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+[2024-05-16 13:43:57.137] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 13:43:57.146] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 13:43:57.146] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 13:43:57.146] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 13:43:57.220] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 13:43:57.220] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 953 ms
+[2024-05-16 13:43:57.353] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 13:43:57.393] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 13:43:57.491] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 13:43:57.567] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 13:43:57.615] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 13:43:57.637] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 13:43:58.068] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 13:43:58.075] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 13:43:58.157] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 13:43:58.243] [WARN ] [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'querydslPredicateArgumentResolver' defined in class path resource [org/springframework/data/web/config/QuerydslWebConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver]: Factory method 'querydslPredicateArgumentResolver' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'querydslBindingsFactory' defined in class path resource [org/springframework/data/web/config/QuerydslWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productRepositorySupport' defined in com.springboot.relationship.data.repository.support.ProductRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot create inner bean '(inner bean)#4f7ef948' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] while setting bean property 'repositoryFragments'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#4f7ef948': Invocation of init method failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productRepositoryCustomImplFragment': Cannot resolve reference to bean 'productRepositoryCustomImpl' while setting constructor argument; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productRepositoryCustomImpl' defined in file [C:\springboot\relationship\target\classes\com\springboot\relationship\data\repository\support\ProductRepositoryCustomImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.Class<?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2024-05-16 13:43:58.244] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 13:43:58.245] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 13:43:58.249] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 13:43:58.250] [INFO ] [main] org.apache.catalina.core.StandardService Stopping service [Tomcat]
+[2024-05-16 13:43:58.258] [INFO ] [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2024-05-16 13:43:58.277] [ERROR] [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springboot.relationship.data.repository.support.ProductRepositoryCustomImpl required a bean of type 'java.lang.Class' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.Class' in your configuration.
+
+[2024-05-16 13:45:58.409] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 5412 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 13:45:58.411] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 13:45:58.871] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 13:45:58.923] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+[2024-05-16 13:45:59.297] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 13:45:59.305] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 13:45:59.306] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 13:45:59.306] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 13:45:59.383] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 13:45:59.384] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 939 ms
+[2024-05-16 13:45:59.541] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 13:45:59.584] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 13:45:59.685] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 13:45:59.763] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 13:45:59.810] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 13:45:59.833] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 13:46:00.257] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 13:46:00.264] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 13:46:00.343] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 13:46:00.822] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 13:46:00.854] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 13:46:00.861] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 2.792 seconds (JVM running for 3.336)
+[2024-05-16 14:07:41.241] [INFO ] [RMI TCP Connection(32)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:07:41.269] [INFO ] [RMI TCP Connection(32)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:07:41.270] [INFO ] [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:07:41.275] [INFO ] [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:07:43.024] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 4400 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:07:43.026] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:07:43.483] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:07:43.533] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+[2024-05-16 14:07:43.890] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:07:43.898] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:07:43.898] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:07:43.899] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:07:43.972] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:07:43.972] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 913 ms
+[2024-05-16 14:07:44.103] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:07:44.142] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:07:44.240] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:07:44.317] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:07:44.365] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:07:44.387] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:07:44.821] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table product_detail 
+       drop 
+       foreign key if exists FKdp0jtp38vrl8mxrqwge69bjyh" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table product_detail 
+       drop 
+       foreign key if exists FKdp0jtp38vrl8mxrqwge69bjyh" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.springboot.relationship.RelationshipApplication.main(RelationshipApplication.java:11)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=34) Table 'springboot.product_detail' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'springboot.product_detail' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 39 common frames omitted
+Caused by: java.sql.SQLException: Table 'springboot.product_detail' doesn't exist
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1694)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1556)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1519)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 40 common frames omitted
+[2024-05-16 14:07:44.878] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:07:44.884] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:07:44.962] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:07:45.436] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:07:45.467] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:07:45.474] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 2.794 seconds (JVM running for 3.319)
+[2024-05-16 14:11:04.943] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Starting ProductDetailRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 376 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:11:04.947] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:11:05.593] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:11:05.665] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:11:06.214] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:11:06.270] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:11:06.405] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:11:06.547] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:11:06.612] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:11:06.641] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:11:07.293] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:11:07.306] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:11:07.623] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:11:08.573] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Started ProductDetailRepositoryTest in 3.987 seconds (JVM running for 5.091)
+[2024-05-16 14:11:08.803] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:11:08.805] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:11:08.814] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:11:37.058] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Starting ProductDetailRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 3784 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:11:37.064] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:11:37.636] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:11:37.711] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:11:38.272] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:11:38.327] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:11:38.472] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:11:38.613] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:11:38.711] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:11:38.739] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:11:39.350] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:11:39.357] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:11:39.664] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:11:40.586] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Started ProductDetailRepositoryTest in 3.863 seconds (JVM running for 4.857)
+[2024-05-16 14:11:40.891] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:11:40.892] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:11:40.899] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:15:08.034] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Starting ProductDetailRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 3980 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:15:08.039] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:15:08.681] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:15:08.754] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:15:09.285] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:15:09.341] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:15:09.482] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:15:09.626] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:15:09.689] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:15:09.717] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:15:10.343] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:15:10.351] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:15:10.653] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:15:11.620] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Started ProductDetailRepositoryTest in 3.943 seconds (JVM running for 4.88)
+[2024-05-16 14:15:12.154] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:15:12.158] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:15:12.166] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:17:14.064] [INFO ] [RMI TCP Connection(20)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:17:14.099] [INFO ] [RMI TCP Connection(20)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:17:14.101] [INFO ] [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:17:14.104] [INFO ] [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:17:15.880] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 3576 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:17:15.882] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:17:16.328] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:17:16.381] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 46 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:17:16.748] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:17:16.756] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:17:16.757] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:17:16.757] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:17:16.829] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:17:16.829] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 914 ms
+[2024-05-16 14:17:16.958] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:17:16.996] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:17:17.097] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:17:17.177] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:17:17.226] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:17:17.250] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:17:17.751] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:17:17.759] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:17:17.838] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:17:18.324] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:17:18.356] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:17:18.363] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 2.834 seconds (JVM running for 3.362)
+[2024-05-16 14:20:43.744] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:20:43.766] [INFO ] [RMI TCP Connection(13)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:20:43.767] [INFO ] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:20:43.770] [INFO ] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:20:45.732] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 7164 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:20:45.734] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:20:46.763] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:20:46.853] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:20:47.316] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:20:47.324] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:20:47.324] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:20:47.324] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:20:47.396] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:20:47.396] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1614 ms
+[2024-05-16 14:20:47.525] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:20:47.562] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:20:47.659] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:20:47.737] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:20:47.786] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:20:47.809] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:20:48.325] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:20:48.332] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:20:48.417] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:20:48.930] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:20:48.963] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:20:48.970] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 3.734 seconds (JVM running for 4.5)
+[2024-05-16 14:22:41.088] [INFO ] [RMI TCP Connection(10)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:22:41.107] [INFO ] [RMI TCP Connection(10)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:22:41.108] [INFO ] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:22:41.112] [INFO ] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:22:42.701] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 1960 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:22:42.703] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:22:43.172] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:22:43.237] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:22:43.685] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:22:43.693] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:22:43.694] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:22:43.694] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:22:43.765] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:22:43.765] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1024 ms
+[2024-05-16 14:22:43.900] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:22:43.941] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:22:44.039] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:22:44.115] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:22:44.162] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:22:44.185] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:22:44.695] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:22:44.703] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:22:44.780] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:22:45.267] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:22:45.298] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:22:45.304] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 2.941 seconds (JVM running for 3.474)
+[2024-05-16 14:23:18.443] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Starting ProductDetailRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 10404 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:23:18.448] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:23:19.051] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:23:19.127] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:23:19.657] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:23:19.715] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:23:19.847] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:23:19.990] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:23:20.048] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:23:20.076] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:23:20.706] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:23:20.713] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:23:21.059] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:23:22.031] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Started ProductDetailRepositoryTest in 3.951 seconds (JVM running for 4.879)
+[2024-05-16 14:23:22.421] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:23:22.446] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:23:22.451] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:24:13.668] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Starting ProductDetailRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 4652 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:24:13.674] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:24:14.247] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:24:14.319] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:24:14.844] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:24:14.900] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:24:15.035] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:24:15.180] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:24:15.241] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:24:15.269] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:24:15.902] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:24:15.908] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:24:16.205] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:24:17.144] [INFO ] [main] com.springboot.relationship.data.repository.ProductDetailRepositoryTest Started ProductDetailRepositoryTest in 3.837 seconds (JVM running for 4.812)
+[2024-05-16 14:24:17.523] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:24:17.524] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:24:17.531] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:28:15.831] [INFO ] [RMI TCP Connection(15)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:28:15.858] [INFO ] [RMI TCP Connection(15)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:28:15.860] [INFO ] [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:28:15.863] [INFO ] [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:28:17.991] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 9940 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:28:17.994] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:28:18.945] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:28:19.057] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 104 ms. Found 4 JPA repository interfaces.
+[2024-05-16 14:28:19.507] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:28:19.515] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:28:19.515] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:28:19.515] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:28:19.587] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:28:19.587] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1514 ms
+[2024-05-16 14:28:19.714] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:28:19.754] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:28:19.851] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:28:19.926] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:28:19.974] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:28:19.996] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:28:20.538] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:28:20.545] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:28:20.627] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:28:21.149] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:28:21.183] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:28:21.189] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 3.698 seconds (JVM running for 4.428)
+[2024-05-16 14:34:51.913] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest Starting ProviderRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 11412 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:34:51.919] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:34:52.507] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:34:52.584] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+[2024-05-16 14:34:53.126] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:34:53.180] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:34:53.307] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:34:53.443] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:34:53.507] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:34:53.535] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:34:54.210] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:34:54.217] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:34:54.517] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:34:55.496] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest Started ProviderRepositoryTest in 3.981 seconds (JVM running for 4.969)
+[2024-05-16 14:34:55.869] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:34:55.871] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:34:55.878] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:38:16.287] [INFO ] [RMI TCP Connection(20)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:38:16.305] [INFO ] [RMI TCP Connection(20)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:38:16.306] [INFO ] [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:38:16.309] [INFO ] [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:38:18.812] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 5012 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:38:18.816] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:38:19.577] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:38:19.725] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 137 ms. Found 5 JPA repository interfaces.
+[2024-05-16 14:38:20.207] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:38:20.219] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:38:20.220] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:38:20.220] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:38:20.286] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:38:20.286] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1425 ms
+[2024-05-16 14:38:20.417] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:38:20.455] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:38:20.553] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:38:20.630] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:38:20.678] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:38:20.704] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:38:21.285] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:38:21.293] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:38:21.377] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:38:21.903] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:38:21.945] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:38:21.952] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 3.928 seconds (JVM running for 4.759)
+[2024-05-16 14:42:09.547] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest Starting ProviderRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 4008 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:42:09.551] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:42:10.244] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:42:10.353] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 94 ms. Found 5 JPA repository interfaces.
+[2024-05-16 14:42:10.996] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:42:11.050] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:42:11.176] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:42:11.364] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:42:11.429] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:42:11.458] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:42:12.210] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:42:12.218] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:42:12.537] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:42:13.529] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest Started ProviderRepositoryTest in 4.339 seconds (JVM running for 5.277)
+[2024-05-16 14:42:13.891] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:42:13.893] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:42:13.902] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:43:23.521] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest Starting ProviderRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 8632 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:43:23.526] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:43:24.092] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:43:24.164] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 66 ms. Found 5 JPA repository interfaces.
+[2024-05-16 14:43:24.685] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:43:24.739] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:43:24.858] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:43:24.999] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:43:25.059] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:43:25.087] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:43:25.779] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:43:25.787] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:43:26.084] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:43:27.060] [INFO ] [main] com.springboot.relationship.data.repository.ProviderRepositoryTest Started ProviderRepositoryTest in 3.887 seconds (JVM running for 4.817)
+[2024-05-16 14:43:27.464] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:43:27.466] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:43:27.473] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:45:42.438] [INFO ] [RMI TCP Connection(17)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 14:45:42.465] [INFO ] [RMI TCP Connection(17)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:45:42.467] [INFO ] [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:45:42.470] [INFO ] [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 14:45:44.585] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 4748 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 14:45:44.589] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 14:45:45.524] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:45:45.666] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 89 ms. Found 5 JPA repository interfaces.
+[2024-05-16 14:45:46.107] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 14:45:46.115] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:45:46.115] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 14:45:46.115] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 14:45:46.192] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 14:45:46.192] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1509 ms
+[2024-05-16 14:45:46.320] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:45:46.358] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:45:46.455] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:45:46.530] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:45:46.578] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:45:46.600] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:45:47.240] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:45:47.247] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:45:47.330] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:45:47.858] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 14:45:47.891] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 14:45:47.904] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 3.834 seconds (JVM running for 4.568)
+[2024-05-16 14:50:55.764] [INFO ] [main] com.springboot.relationship.data.repository.CategoryRepositoryTest Starting CategoryRepositoryTest using Java 17.0.7 on DESKTOP-236F61P with PID 10532 (started by kcci in C:\springboot\relationship)
+[2024-05-16 14:50:55.767] [INFO ] [main] com.springboot.relationship.data.repository.CategoryRepositoryTest No active profile set, falling back to default profiles: default
+[2024-05-16 14:50:56.343] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 14:50:56.419] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+[2024-05-16 14:50:56.949] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 14:50:57.000] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 14:50:57.115] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 14:50:57.245] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 14:50:57.306] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 14:50:57.335] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 14:50:58.099] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 14:50:58.106] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:50:58.401] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 14:50:59.394] [INFO ] [main] com.springboot.relationship.data.repository.CategoryRepositoryTest Started CategoryRepositoryTest in 3.985 seconds (JVM running for 4.918)
+[2024-05-16 14:50:59.775] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 14:50:59.777] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 14:50:59.783] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 15:11:13.543] [INFO ] [RMI TCP Connection(32)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+[2024-05-16 15:11:13.581] [INFO ] [RMI TCP Connection(32)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 15:11:13.582] [INFO ] [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2024-05-16 15:11:13.585] [INFO ] [RMI TCP Connection(32)-127.0.0.1] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2024-05-16 15:11:15.781] [INFO ] [main] com.springboot.relationship.RelationshipApplication Starting RelationshipApplication using Java 17.0.7 on DESKTOP-236F61P with PID 5160 (C:\springboot\relationship\target\classes started by kcci in C:\springboot\relationship)
+[2024-05-16 15:11:15.784] [INFO ] [main] com.springboot.relationship.RelationshipApplication No active profile set, falling back to default profiles: default
+[2024-05-16 15:11:16.651] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-16 15:11:16.841] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 175 ms. Found 6 JPA repository interfaces.
+[2024-05-16 15:11:17.346] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 7777 (http)
+[2024-05-16 15:11:17.361] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-7777"]
+[2024-05-16 15:11:17.361] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2024-05-16 15:11:17.362] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.54]
+[2024-05-16 15:11:17.427] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2024-05-16 15:11:17.427] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1576 ms
+[2024-05-16 15:11:17.557] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-16 15:11:17.599] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.4.32.Final
+[2024-05-16 15:11:17.705] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2024-05-16 15:11:17.782] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2024-05-16 15:11:17.832] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2024-05-16 15:11:17.856] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+[2024-05-16 15:11:18.376] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table producer_products 
+       drop 
+       foreign key if exists FKf8eytysh4r4bk9o6flsn0yg1t" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table producer_products 
+       drop 
+       foreign key if exists FKf8eytysh4r4bk9o6flsn0yg1t" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.springboot.relationship.RelationshipApplication.main(RelationshipApplication.java:11)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=194) Table 'springboot.producer_products' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'springboot.producer_products' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 39 common frames omitted
+Caused by: java.sql.SQLException: Table 'springboot.producer_products' doesn't exist
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1694)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1556)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1519)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 40 common frames omitted
+[2024-05-16 15:11:18.378] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table producer_products 
+       drop 
+       foreign key if exists FKk5j0x3lsahtifjsui48jnqedn" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table producer_products 
+       drop 
+       foreign key if exists FKk5j0x3lsahtifjsui48jnqedn" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.springboot.relationship.RelationshipApplication.main(RelationshipApplication.java:11)
+Caused by: java.sql.SQLSyntaxErrorException: (conn=194) Table 'springboot.producer_products' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:266)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:366)
+	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:504)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'springboot.producer_products' doesn't exist
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:262)
+	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:360)
+	... 39 common frames omitted
+Caused by: java.sql.SQLException: Table 'springboot.producer_products' doesn't exist
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1694)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1556)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1519)
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:256)
+	... 40 common frames omitted
+[2024-05-16 15:11:18.590] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2024-05-16 15:11:18.597] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-16 15:11:18.678] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-16 15:11:19.221] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-7777"]
+[2024-05-16 15:11:19.265] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 7777 (http) with context path ''
+[2024-05-16 15:11:19.272] [INFO ] [main] com.springboot.relationship.RelationshipApplication Started RelationshipApplication in 4.029 seconds (JVM running for 4.79)
